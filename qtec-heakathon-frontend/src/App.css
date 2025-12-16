@@ -1,0 +1,148 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Custom styles for Dropzone */
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dropzone.active {
+  border-color: #2196f3;
+}
+
+.upload-status {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.upload-status.uploading {
+  color: #2196f3;
+}
+
+.upload-status.success {
+  color: #4caf50;
+}
+
+.upload-status.error {
+  color: #f44336;
+}
+
+.rejected-file {
+  color: #f44336;
+}
+
+/* Custom styles for URL Input */
+.url-input-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.url-input {
+  width: calc(100% - 100px); /* Adjust based on button width */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.url-submit-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.url-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.url-analysis-status {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.url-analysis-status.analyzing {
+  background-color: #e0f7fa;
+  color: #007bff;
+}
+
+.url-analysis-status.success {
+  background-color: #e8f5e9;
+  color: #28a745;
+}
+
+.url-analysis-status.error {
+  background-color: #ffebee;
+  color: #dc3545;
+}
+
+.file-preview-thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+
