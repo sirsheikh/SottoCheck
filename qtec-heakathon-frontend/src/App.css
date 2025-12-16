@@ -145,4 +145,223 @@
   vertical-align: middle;
 }
 
+.reverse-search-results {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+.reverse-search-results h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.reverse-search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reverse-search-results li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.reverse-search-results li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.reverse-search-results li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.reverse-search-results li a:hover {
+  text-decoration: underline;
+}
+
+.reverse-search-results li img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Custom styles for Fact-Checking Section */
+.fact-check-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.fact-check-input {
+  width: calc(100% - 130px); /* Adjust based on button width */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.fact-check-submit-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fact-check-submit-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.fact-check-submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.fact-check-status {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.fact-check-status.searching {
+  background-color: #e0f7fa;
+  color: #007bff;
+}
+
+.fact-check-status.success {
+  background-color: #e8f5e9;
+  color: #28a745;
+}
+
+.fact-check-status.error {
+  background-color: #ffebee;
+  color: #dc3545;
+}
+
+.fact-check-results {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e6ffe6; /* Light green background for fact-checks */
+  text-align: left;
+}
+
+.fact-check-results h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.fact-check-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fact-check-results li {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #c0e0c0;
+  padding-bottom: 10px;
+}
+
+.fact-check-results li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.fact-check-results li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.fact-check-results li a:hover {
+  text-decoration: underline;
+}
+
+/* Custom styles for Metadata Results Section */
+.metadata-results {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e6f7ff; /* Light blue background for metadata */
+  text-align: left;
+}
+
+.metadata-results h4,
+.metadata-results h5 {
+  margin-top: 0;
+  color: #333;
+}
+
+.metadata-results p,
+.metadata-results ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.metadata-results ul li {
+  margin-bottom: 3px;
+}
+
+/* Custom styles for Source Verification Results Section */
+.source-verification-results {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fffbe6; /* Light yellow background for source verification */
+  text-align: left;
+}
+
+.source-verification-results h4,
+.source-verification-results h5 {
+  margin-top: 0;
+  color: #333;
+}
+
+.source-verification-results p,
+.source-verification-results ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.source-verification-results ul li {
+  margin-bottom: 3px;
+}
+
+.source-verification-results a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.source-verification-results a:hover {
+  text-decoration: underline;
+}
+
 

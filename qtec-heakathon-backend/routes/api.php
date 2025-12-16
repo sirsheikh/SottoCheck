@@ -10,4 +10,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/analyze/upload', [AnalysisController::class, 'upload']);
 Route::post('/analyze/url', [AnalysisController::class, 'analyzeUrl']);
+Route::post('/reverse-search', [AnalysisController::class, 'reverseSearch']);
+Route::post('/fact-check', [AnalysisController::class, 'factCheck']);
+Route::get('/metadata', [AnalysisController::class, 'getMetadata']);
+Route::post('/verify-source', [AnalysisController::class, 'verifySource']);
 
